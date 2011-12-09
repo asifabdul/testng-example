@@ -1,7 +1,5 @@
 package com.testng_example.inheritance.groups;
 
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 /**
@@ -10,11 +8,6 @@ import org.testng.annotations.Test;
  * Time: 12:25 PM
  */
 public class SecondTest extends FirstTest {
-
-    @BeforeClass
-    public void setUp() {
-        System.out.println("SecondTest: set up class");
-    }
 
     @Test(groups = "GroupA")
     public void test21() {
@@ -26,6 +19,7 @@ public class SecondTest extends FirstTest {
         System.out.println("SecondTest: test22");
     }
 
+    @Test
     public void test23() {
         System.out.println("SecondTest: test23");
     }
@@ -35,9 +29,5 @@ public class SecondTest extends FirstTest {
         System.out.println("SecondTest: test24");
     }
 
-    @AfterClass
-    public void tearDown() {
-        System.out.println("SecondTest: tear down class");
-    }
 }
 

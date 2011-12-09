@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
  * Date: 11/28/11
  * Time: 12:25 PM
  */
-public class SecondTest extends FirstTest{
+public class SecondTest extends FirstTest {
 
     @BeforeClass
     public void setUp() {

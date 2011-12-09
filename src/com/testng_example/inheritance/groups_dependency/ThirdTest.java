@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
  */
 public class ThirdTest extends SecondTest {
 
-    @BeforeClass(alwaysRun = true)
+    @BeforeClass
     public void setUp() {
         System.out.println("ThirdTest: set up class");
     }
@@ -36,7 +36,7 @@ public class ThirdTest extends SecondTest {
         System.out.println("ThirdTest: test34");
     }
 
-    @AfterClass(alwaysRun = true)
+    @AfterClass
     public void tearDown() {
         System.out.println("ThirdTest: tear down class");
     }

@@ -1,7 +1,5 @@
 package com.testng_example.inheritance.alwaysrun;
 
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 /**
@@ -10,11 +8,6 @@ import org.testng.annotations.Test;
  * Time: 12:39 PM
  */
 public class ThirdTest extends SecondTest {
-
-    @BeforeClass(alwaysRun = true)
-    public void setUp() {
-        System.out.println("ThirdTest: setUp method");
-    }
 
     @Test(groups = "GroupA")
     public void test31() {
@@ -36,8 +29,4 @@ public class ThirdTest extends SecondTest {
         System.out.println("ThirdTest: test34");
     }
 
-    @AfterClass(alwaysRun = true)
-    public void tearDown() {
-        System.out.println("ThirdTest: tearDown ");
-    }
 }
