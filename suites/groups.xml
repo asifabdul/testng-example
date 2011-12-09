@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Groups" verbose="2">
+    <test name="Groups">
+        <packages>
+            <package name="com.testng_example.inheritance.groups.*">
+            </package>
+        </packages>
+    </test>
+</suite>

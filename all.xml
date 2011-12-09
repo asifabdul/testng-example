@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All" verbose="1">
+    <suite-files>
+        <suite-file path="suites/simple.xml"/>
+        <suite-file path="suites/groups.xml"/>
+        <suite-file path="suites/abstract.xml"/>
+        <suite-file path="suites/dependency.xml"/>
+        <suite-file path="suites/alwaysrun.xml"/>
+    </suite-files>
+</suite>
+
