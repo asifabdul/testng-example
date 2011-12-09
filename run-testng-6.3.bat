@@ -5,7 +5,7 @@ set TESTNG_XML=all.xml
 set REPORT_DIR=test-reports
 set CLASSPATH=%OUT_DIR%
 set CLASSPATH=%CLASSPATH%;dist\lib\others\*
-set CLASSPATH=%CLASSPATH%;dist\lib\testng-6.3.1\*
+set CLASSPATH=%CLASSPATH%;dist\lib\testng-6.3\*
 
 rem remove existing report directory
 IF EXIST %REPORT_DIR% (
